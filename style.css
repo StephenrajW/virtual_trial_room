@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Frank+Ruhl+Libre:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Frank Ruhl Libre;
+    color: aliceblue;
+}
+
+body {
+    background: linear-gradient(to top, #000000f1, #000000c0), url('images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.brand {
+    position: absolute;
+    top: 5%;
+    letter-spacing: 5px;
+    background-color: #00EAF9;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 35px 35px 0;
+}
+
+.brand img {
+    width: 50px;
+    padding: 10px;
+}
+
+.brand h2 {
+    font-size: 20px;
+    color: black;
+    padding-right: 30px;
+}
+
+.main {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    position: absolute;
+    top: 37%;
+    letter-spacing: 5px;
+    font-size: 60px;
+    display: flex;
+    color: #00EAF9;
+
+}
+
+/* icons */
+.icons {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left:20%;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.icons .man {
+    margin-right: 50px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.man:hover .fas,.man:hover p{
+    color: #008c91;
+    transition:all .5s ease;
+}
+
+.icons .fa, .main .fas{
+    font-size: 100px;
+    color: #00EAF9;
+}
+
+.man p{
+    letter-spacing: 5px;
+    padding: 15px;
+    color: #00EAF9;
+}
+
+.man a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    background-color: #00EAF9;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* border: .px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(76, 253, 244, 0.712); */
+}
+a:hover{
+    background-color: #008c91;
+    transition:all .5s ease ;
+}
+
+/* nav bar */
+.nav{
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    right: 0; 
+    background-color: #00EAF9;
+}
+
+.nav ul{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    padding: 20px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: inline-block;
+    width: 60px;
+    text-decoration: none;
+    padding: 25px 0 25px 0;
+    margin: auto 0; 
+    font-size: 27px;
+}
+.fa{
+    color:black;
+}
+
